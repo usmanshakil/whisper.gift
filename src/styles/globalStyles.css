@@ -1,0 +1,956 @@
+ 
+ 
+body{
+    font-family: 'Lato', sans-serif !important;
+    color: black;
+      padding-left: 0px !important;
+    padding-right: 0px !important;
+} 
+p , a , h1, h2 ,h3,h4,h5 h6{
+    font-family: 'Lato', sans-serif !important;
+}
+.default-margin{
+        margin: 0px !important;
+        padding:  0px !important;
+}
+.padding-top-medium{
+    padding-top: 10px;
+}
+.padding-top-large1{
+       margin-top: 170px !important;
+}
+  
+
+ 
+.App{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.app-secondary-bg{
+    background-color:#ED6130 !important;
+}
+.app-secondary-text{
+      color:  #00918A !important;
+} 
+ 
+
+
+/* Landing Page  */
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        /**** header started started*/
+.main-nav-bar{
+ /* padding: 0px 200px   !important;   */
+     padding: 0% 12% !important;
+  background-color: #FFECBD;  
+}
+.logo-text{
+width:333px
+}
+.logo1{
+         width: 180px !important;
+ 
+}
+.nav-item{
+color: #242F51 !important;
+}
+.navbar-brand{
+    width: 10px;
+}
+.navbar-collapse{ 
+    padding-top: 55px !important; 
+}
+/* header started ended*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero started  */
+.hero-container{
+ background-color: #FFECBD;
+} 
+.hero-text-area{
+padding: 137px;
+}
+.hero-text-area h1{
+    color: #242F51 ;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-text-area span{
+   color: #616368;
+   font-size: 18px;
+
+}
+.hero-text-area .hero-btn{
+background-color: #FD6534;
+    color: white;
+    border: 30px;
+    padding: 11px 23px;
+    border-radius: 24px;
+}
+ 
+.hero-image-area{
+    display: flex !important;
+    justify-content: flex-end;
+}
+.hero-image{
+         
+
+    width: 550px;
+
+
+}
+.hero-footer-image-area{
+    display: flex;
+    justify-content: flex-end; 
+width: 100%;
+height: 126px;
+}
+.extra-padding{
+    
+    padding-left: 14% !important;
+
+}
+/* hero started ended  */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* twoColumWithImageAndText start */
+ 
+.twoColumWithImageAndText-container{
+ background-color: white;
+} 
+.twoColumWithImageAndText-text-area{
+padding: 0px 0px 0px 100px;
+}
+.twoColumWithImageAndText-text-area h1{
+    color: #242F51 ;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.twoColumWithImageAndText-text-area span{
+   color: #616368;
+   font-size: 18px;
+
+}
+.twoColumWithImageAndText-text-area .hero-btn{
+background-color: #FD6534;
+    color: white;
+    border: 30px;
+    padding: 11px 23px;
+    border-radius: 24px;
+}
+.twoColumWithImageAndText-image-area{
+display: flex !important; 
+justify-content: center !important;
+align-items: center !important;
+        padding: 20px 100px 0px 0px !important;
+}
+.twoColumWithImageAndText-image-area{
+    display: flex !important;
+    justify-content: flex-end;
+}
+.twoColumWithImageAndText-image{
+         width: 100%;
+}
+/* twoColumWithImageAndText ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* RowWithThreeCard started started */ 
+.twoColumWithImageAndText-main-heading{
+    color: #242F51 ;
+    font-size: 36px;
+    font-weight: bold;
+}
+.circular-icon-container{ 
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+ 
+.twoColumWithImageAndText-card span{
+color:#242F51;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 1px;
+padding-top: 20px;
+
+    line-height: 35px;
+
+}
+ 
+/* RowWithThreeCard started ened */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CustomerStisfaction started */
+.padding-top-large{
+padding-top: 140px;
+}
+.padding-medium-large{
+padding-top: 100px;
+}
+.customerStisfaction-text-area h1{
+    color: #242F51 ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.customerStisfaction-text-area span{
+       color:  #616368 ;
+       font-size: 16px;
+}
+.customer-star{
+    width: 35px;
+}
+.customerStisfaction-text-area{
+     color: #242F51 ;
+    font-size: 20px;
+    font-weight: bolder; 
+}
+.customer-img{
+    width: 100px;
+}
+/* CustomerStisfaction ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ started */
+ .faq-main-heading{
+         color: #242F51 ;
+    font-size: 40px;
+    font-weight: bolder;  
+ }
+ .faq-main-heading span{
+          color:  #616368 ;
+       font-size: 16px;
+         width: auto; 
+ }
+.faq-sub-heading{
+    background-color: #F5F7FA;
+    padding: 23px 27px;
+
+}
+ .faq-sub-heading h1{
+         color: #242F51 ;
+    font-size: 16px;
+    font-weight: bolder;
+ }
+ .faq-box{
+     padding: 50px 130px !important;
+ }
+/* FAQ ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Download seaction started */
+ 
+.google-image{
+height: 75px;
+}
+.apple-image{
+    height: 62px;
+    padding-top: 10px;
+}
+/* Download seaction ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer started started*/
+.footer-container{
+background-color: black !important;
+color: white;
+}
+
+.footer-logo{
+padding: 20px 30px;
+}
+ 
+.footer-link{
+padding: 20px;
+color: white;
+text-decoration: none;
+}
+ 
+ 
+.footer-lower-logo img{
+        width: 60px;
+}
+.footer-small-text{
+font-size: 10px;
+}
+/* footer started  ended*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOW IT WORK Page started */
+/* Hero2 started */
+.hero2-text-area{
+padding: 137px; 
+}
+.hero2-text-area h1{
+    color: #FF6634 ;
+    font-size: 60px;
+    font-weight: bol<spand;
+}
+.hero2-text-area span{
+    color: #242F51;
+    font-size: 60px;
+    font-weight: bold;
+}
+.howItWorkSteps-image-area{
+display: flex !important; 
+justify-content: center !important;
+align-items: center !important;
+        /* padding: 20px 100px 0px 0px !important; */
+}
+.howItWorkSteps-text-area span{
+color: black;
+    font-size: 18px;
+    font-weight: bold; 
+}
+.howItWorkSteps-dektop{
+    display: block !important;
+}
+.howItWorkSteps-mobile{
+    display: none !important;
+}
+/* Hero2 ended */
+/* HOW IT WORK Page ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* thank you page started  */
+.thankyou-body{
+       background-image: url("../assets/imgs/App Icon/PNG/thank\ you/Component 1 – 1.png"); 
+}
+.thankyou-body-box{
+    padding: 20px 332px  !important; 
+}
+ 
+.thankyou-body-heading h1{
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 4px;
+    padding-top: 20px;
+}
+.thankyou-body-sub-heading h5{
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.thankyou-body-text{
+padding-top: 20px;
+} 
+ 
+.thankyou-link-fb{
+    
+    background-color: #4267B2;
+      width: 40px;
+    height: 40px;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.thankyou-link-in{
+background-color: #0077b5;
+   width: 40px;
+    height: 40px;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.thankyou-link-twitter{
+background-color: #1DA1F2;
+   width: 40px;
+    height: 40px;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* thank you page  ended*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Modal started */
+.modal-content{
+    background-image: linear-gradient( #FFDF00 ,     #FFB500);
+ 
+}
+.modal-container{
+padding: 25px;
+}
+.modal-transparent-bg{
+     background-image: url("../assets/imgs/App Icon/PNG/modal/1.png"); 
+   padding-bottom: 13px !important;
+       border-radius: 15px;
+       overflow: hidden;
+    }
+    .modal-left-image{
+        border-radius: 15px 0px 0px 15px;
+            /* height: -webkit-fill-available; */
+    }
+    .modal-imputs-area{
+        background-color: white;
+           border-radius: 0px 15px 15px 0px;
+           padding: 20px !important;
+    }
+    .form-control{
+            border: unset !important;
+    border-bottom: 1px solid #C8C8C8 !important;
+    border-radius: unset !important;
+    }
+     label { 
+    margin-bottom: unset   !important;
+       font-weight: 600;
+       font-size:12px;
+           padding-left: 12px   !important;
+}
+    .modal-subheading{
+        font-family: Poppins;
+        font-size: 14px;
+        padding: 0px 10px 10px 10px;
+        font-weight: 800;
+            padding: 15px 12px 17px 12px;
+    }
+    .modal-heading{
+         font-family: Poppins; 
+        padding: 0px 10px 10px 10px;
+        font-weight: 600;
+    }
+::placeholder {
+  color: #C8C8C8 ; 
+   font-size:11px  !important;
+}
+.btn-modal{
+       background-image: linear-gradient( #FF4D27 ,       #FF8041) ; 
+           padding: 8px 59px !important;
+}
+.order-summary{
+  width:160px  
+} 
+.order-summary p
+{color : #0e53a1;
+      font-size: 10px !important;
+
+}
+.Collapsible__trigger{
+    padding: 7px; 
+     border-radius: 6px;
+    display: flex;
+    justify-content: flex-starts;
+    background-image: linear-gradient( #FF4D27 ,       #FF8041) ; 
+}
+.Collapsible{
+   
+       padding: 5px;
+    box-shadow: 0px 1px 12px 3px #b3a0a073;
+    border-radius: 6px;
+
+}
+.d-imagearea-none {
+      display: flex !important;
+}
+.order-summary-desktop{
+    display: flex  !important;
+    padding-top: 30px   !important;
+    padding-bottom: 30px   !important;
+
+}
+.order-summary-mobile{
+    display: none   !important;
+}
+.form-check-label{
+        width: 260px !important;
+}
+.setp3-city-zip{
+        width: 319px !important;
+}
+/* Modal ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1052px) {
+  .padding-top-large1{
+     margin-top: 51px !important;
+}
+ .main-nav-bar{
+    /* padding: 0px 114px !important;  */
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+
+/* nav started  */
+    /* .main-nav-bar{
+ padding: 0px 0px   !important;   
+} */
+.navbar-collapse{ 
+    padding-top: 10px !important; 
+}
+.main-nav-bar button{
+        margin-right: 11px   !important;
+    margin-top: 41px !important;
+}
+/* nav started ended */
+
+/* hero started  */
+.hero-image{
+    width: 473px;
+} 
+
+.hero-text-area{
+    padding: 24px;
+    
+}
+/* hero started ened */
+
+/* twoColumWithImageAndText started ened */
+.twoColumWithImageAndText-text-area{
+    padding: 24px;
+}
+.twoColumWithImageAndText-image-area{ 
+    padding: 20px !important;
+}
+/* twoColumWithImageAndText started ened */
+
+
+/* RowWithThreeCard started ened */
+
+/* FAQ started */
+ .faq-box{
+     padding: 30px !important;
+ }
+/* FAQ ended */
+
+/* HOW IT WORK Page started */ 
+.howItWorkSteps-dektop{
+    display: none !important;
+}
+.howItWorkSteps-mobile{
+    display: block !important;
+} 
+/* HOW IT WORK Page ended */
+
+/* thank you started  */
+.thankyou-body-box{
+    padding: 20px 20px  !important; 
+}
+/* thank you ended */
+
+
+/* modal STARTED*/
+  .modal-imputs-area{ 
+           border-radius: 15px ;  
+    }
+.d-imagearea-none {
+    display: none !important;
+}
+.order-summary-desktop{
+    display: none  !important;
+}
+.order-summary-mobile{
+    display: block   !important;
+}
+/* MODAL ENDED */
+.padding-top-large1{
+     margin-top: 51px !important;
+}
+ 
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    /* nav started  */
+   .main-nav-bar{
+
+    padding: 0% 5% !important;
+
+}
+.navbar-collapse{ 
+    padding-top: 10px !important; 
+}
+.main-nav-bar button{
+        margin-right: 11px   !important;
+    margin-top: 41px !important;
+}
+    /* nav started ended */
+    
+    /* hero started  */
+
+.hero-text-area{
+    padding: 24px;
+}
+.hero-image{
+    width: 300px;
+} 
+    /* hero started ened */
+   
+ /* twoColumWithImageAndText started ened */
+ .twoColumWithImageAndText-text-area{
+   padding: 24px;
+}
+.twoColumWithImageAndText-image-area{ 
+    padding: 20px !important;
+}
+/* twoColumWithImageAndText started ened */
+
+/* RowWithThreeCard started ened */
+
+/* FAQ started */
+ .faq-box{
+     padding: 20px !important;
+ }
+/* FAQ ended */
+/* HOW IT WORK Page started */ 
+.howItWorkSteps-dektop{
+    display: none !important;
+}
+.howItWorkSteps-mobile{
+    display: block !important;
+} 
+/* HOW IT WORK Page ended */
+/* thank you started  */
+.thankyou-body-box{
+    padding: 20px 20px  !important; 
+}
+/* thank you ended */
+
+/* modal STARTED*/
+  .modal-imputs-area{ 
+           border-radius: 15px ;  
+    }
+.d-imagearea-none {
+    display: none !important;
+}
+.order-summary-desktop{
+    display: none  !important;
+}
+.order-summary-mobile{
+    display: block   !important;
+}
+/* MODAL ENDED */
+.padding-top-large1{
+     margin-top: 51px !important;
+}
+ 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) { 
+}
+@media only screen and (min-width: 319px) and (max-width: 374px) { 
+  
+}
+ 
+

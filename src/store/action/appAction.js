@@ -1,0 +1,2 @@
+export const SAVE_GLOBALS = "SAVE_GLOBALS";
+export const UPDATE_ALERT = "UPDATE_ALERT" 
