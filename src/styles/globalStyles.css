@@ -64,14 +64,14 @@ p , a , h1, h2 ,h3,h4,h5 h6{
                                         /**** header started started*/
 .main-nav-bar{
  /* padding: 0px 200px   !important;   */
-     padding: 0% 12% !important;
+     /* padding: 0% 12% !important; */
   background-color: #FFECBD;  
 }
 .logo-text{
 width:333px
 }
 .logo1{
-         width: 180px !important;
+            max-width: 210px;
  
 }
 .nav-item{
@@ -81,7 +81,7 @@ color: #242F51 !important;
     width: 10px;
 }
 .navbar-collapse{ 
-    padding-top: 55px !important; 
+    /* padding-top: 55px !important;  */
 }
 /* header started ended*/
 
@@ -113,15 +113,33 @@ color: #242F51 !important;
 
 /* hero started  */
 .hero-container{
- background-color: #FFECBD;
+ /* background-color: #FFECBD; */
+    background-image: url("../assets/imgs/App Icon/PNG/hero/Group.png"); 
+       
+    padding-bottom: 240px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+
 } 
+.hero-container-2{
+ /* background-color: #FFECBD; */
+    background-image: url("../assets/imgs/App Icon/PNG/hero/Group.png"); 
+       
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+
+}
 .hero-text-area{
-padding: 137px;
+ padding: 20px;  
 }
 .hero-text-area h1{
     color: #242F51 ;
     font-size: 60px;
     font-weight: bold;
+    padding-top: 80px;
 }
 
 .hero-text-area span{
@@ -140,11 +158,13 @@ background-color: #FD6534;
 .hero-image-area{
     display: flex !important;
     justify-content: flex-end;
+   position:absolute !important;
+    right: 0px; 
 }
 .hero-image{
-         
-
-    width: 550px;
+                
+/* position:absolute; */
+     width: 550px; 
 
 
 }
@@ -777,13 +797,15 @@ padding: 25px;
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 1052px) {
+@media only screen and (min-width: 769px) and (max-width: 1052px) {
   .padding-top-large1{
      margin-top: 51px !important;
 }
  .main-nav-bar{
     /* padding: 0px 114px !important;  */
 }
+
+
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
 
@@ -802,12 +824,21 @@ padding: 25px;
 
 /* hero started  */
 .hero-image{
-    width: 473px;
+    /* width: 473px; */
 } 
 
 .hero-text-area{
-    padding: 24px;
+    padding: 5px;
     
+}
+
+.hero-image-area{
+    position: unset  !important;
+}
+.hero-container .container
+{
+         padding-right: unset  !important;
+                  margin-right: unset  !important;
 }
 /* hero started ened */
 
@@ -872,7 +903,7 @@ padding: 25px;
     /* nav started  */
    .main-nav-bar{
 
-    padding: 0% 5% !important;
+    /* padding: 0% 5% !important; */
 
 }
 .navbar-collapse{ 
@@ -887,11 +918,19 @@ padding: 25px;
     /* hero started  */
 
 .hero-text-area{
-    padding: 24px;
+    padding: 5px;
 }
 .hero-image{
     width: 300px;
 } 
+.hero-image-area{
+    position: unset  !important;
+}
+.hero-container .container
+{
+         padding-right: unset  !important;
+         margin-right: unset  !important;
+}
     /* hero started ened */
    
  /* twoColumWithImageAndText started ened */
@@ -945,7 +984,14 @@ padding: 25px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
-    
+    .hero-image-area{
+    position: unset  !important;
+}
+.hero-container .container
+{
+         padding-right: unset  !important;
+         margin-right: unset  !important;
+}
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) { 
 }

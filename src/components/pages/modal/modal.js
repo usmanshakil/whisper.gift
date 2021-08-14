@@ -151,41 +151,41 @@ const Mymodal = (props) => {
 
                 <Form.Group className="mb-3" >
                     <Form.Label>Full Name  </Form.Label>
-                    <Form.Control type="text" placeholder="Enter Phone Number" />
+                    <Form.Control type="text" placeholder="Enter   Full Name " />
 
                 </Form.Group>
                 <Form.Group className="mb-3"  >
                     <Form.Label>   Phone Number   </Form.Label>
-                    <Form.Control type="email" placeholder=" Enter  Confirmation code " />
+                    <Form.Control type="email" placeholder=" Enter    Phone Number " />
 
                 </Form.Group>
 
 
                 <Form.Group className="mb-4"  >
                     <Form.Label>Address  </Form.Label>
-                    <Form.Control type="text" placeholder="Enter  Full Name" />
+                    <Form.Control type="text" placeholder="Enter    Address" />
                 </Form.Group>
                 <Form.Group className="mb-4"  >
                     <Form.Label>    Apt,Suit </Form.Label>
-                    <Form.Control type="text" placeholder=" Enter Instagram Username" />
+                    <Form.Control type="text" placeholder=" Enter    Apt,Suit" />
                 </Form.Group>
                 <div className="d-flex setp3-city-zip">
                     <Form.Group className="mb-4"  >
                         <Form.Label> City </Form.Label>
-                        <Form.Control type="number" placeholder="Enter Phone" />
+                        <Form.Control type="text" placeholder="Enter City" />
                     </Form.Group>
                     <Form.Group className="mb-4 "  >
                         <Form.Label className=" "> State </Form.Label>
-                        <Form.Control type="number" placeholder="Enter Phone" />
+                        <Form.Control type="text" placeholder="Enter State" />
                     </Form.Group>
                     <Form.Group className="mb-4"  >
                         <Form.Label className=" "> Zip </Form.Label>
-                        <Form.Control type="number" placeholder="Enter Phone" />
+                        <Form.Control type="number" placeholder="Enter Zip" />
                     </Form.Group>
                 </div>
                 <Form.Group className="mb-4"  >
                     <Form.Label>    Country</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Email" />
+                    <Form.Control type="text" placeholder="Enter Country" />
                 </Form.Group>
 
                 <div className="d-flex justify-content-center flex-wrap">

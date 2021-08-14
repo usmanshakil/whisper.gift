@@ -1,6 +1,6 @@
 import React from "react";
 // import Context from "../context/Context";
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import LOGO from "../assets/imgs/App Icon/PNG/navbar/Whisper.Gift-removebg-preview.png";
 const NavBar = () => {
@@ -8,27 +8,29 @@ const NavBar = () => {
 
     return (
         <>
-            <Navbar className="main-nav-bar"
+            <Navbar className="main-nav-bar "
                 collapseOnSelect expand="lg" variant="light" >
+                <Container>
+                    <Link className="" to="/">
+                        <img src={LOGO} alt="logo1" className="logo1" />
+                    </Link>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                        </Nav>
+                        <Nav>
+                            <Link className="pl-4 nav-item" to="/">   Home   </Link>
+                        </Nav>
+                        <Nav>
+                            <Link className="pl-4 nav-item" to="/how-it-work">   How it works   </Link>
+                        </Nav>
+                        <Nav>
+                            <Link className="pl-4 nav-item" to="/thankyou"> Thank you  </Link>
+                        </Nav>
 
-                <img src={LOGO} alt="logo1" className="logo1" />
 
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                    </Nav>
-                    <Nav>
-                        <Link className="pl-4 nav-item" to="/">   Home   </Link>
-                    </Nav>
-                    <Nav>
-                        <Link className="pl-4 nav-item" to="/how-it-work">   How it works   </Link>
-                    </Nav>
-                    <Nav>
-                        <Link className="pl-4 nav-item" to="/thankyou"> Thank you  </Link>
-                    </Nav>
-
-
-                </Navbar.Collapse>
+                    </Navbar.Collapse>
+                </Container>
             </Navbar >
         </>
     );

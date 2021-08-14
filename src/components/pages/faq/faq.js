@@ -14,9 +14,11 @@ export default function FAQ() {
                     </Container>
                 </Col>
                 <Col lg={12} md={12} sm={12}>
-                    <Row className=" faq-box">
+                    <Row
+                        className=" faq-box"
+                    >
                         <Col className={"faq-sub-heading d-flex flex-column justify-content-flex-start     "} lg={12} md={12} sm={12}>
-                            <h1> Frequently asked questions</h1>
+                            <h1> How to contact with riders emergency?</h1>
 
                             <span>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
@@ -24,7 +26,7 @@ export default function FAQ() {
 
                         </Col>
 
-                        <Col className={"faq-sub-heading d-flex   justify-content-flex-start     "} lg={12} md={12} sm={12}>
+                        <Col className={" default-margin   d-flex   justify-content-flex-start     "} lg={12} md={12} sm={12}>
                             <Accordian />
                         </Col>
                     </Row>
