@@ -7,11 +7,10 @@ export default function FAQ() {
         <Container className="container padding-medium-large">
             <Row className="default-margin  ">
                 <Col className={"faq-main-heading d-flex flex-column justify-content-center text-center pt-5  "} lg={12} md={12} sm={12}>
-                    <h1> Frequently asked questions</h1>
-                    <Container>
-                        <span>The rise of mobile devices transforms the way we consume information entirely
+                    <h1 className="font-bold"> Frequently asked questions</h1>
+                        <span className="text-center">
+                            The rise of mobile devices transforms the way we consume information entirely
                             and the world's most elevant channels such as Facebook.</span>
-                    </Container>
                 </Col>
                 <Col lg={12} md={12} sm={12}>
                     <Row

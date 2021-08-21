@@ -24,7 +24,7 @@ export default function RowWithThreeCard() {
 
     ])
     return (
-        <div className="container padding-medium-large">
+        <div className="container pt-16">
             <Row className="default-margin  ">
                 <Col className={"twoColumWithImageAndText-main-heading pt-5  w-100"} lg={12} md={12} sm={12}>
                     Gift delivered or your money back

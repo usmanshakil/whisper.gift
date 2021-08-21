@@ -1,4 +1,6 @@
- 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
  
 body{
     font-family: 'Lato', sans-serif !important;
@@ -123,10 +125,10 @@ color: #242F51 !important;
 
 } 
 .hero-container-2{
- /* background-color: #FFECBD; */
-    background-image: url("../assets/imgs/App Icon/PNG/hero/Group.png"); 
+ background-color: #FFECBD;
+    /* background-image: url("../assets/imgs/App Icon/PNG/hero/Group.png");  */
        
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     background-size: cover;
     background-position: bottom;
     position: relative;
@@ -171,8 +173,7 @@ background-color: #FD6534;
 .hero-footer-image-area{
     display: flex;
     justify-content: flex-end; 
-width: 100%;
-height: 126px;
+    width: 100%;
 }
 .extra-padding{
     
@@ -219,6 +220,7 @@ height: 126px;
 } 
 .twoColumWithImageAndText-text-area{
 padding: 0px 0px 0px 100px;
+padding-left: 120px;
 }
 .twoColumWithImageAndText-text-area h1{
     color: #242F51 ;
@@ -242,14 +244,13 @@ background-color: #FD6534;
 display: flex !important; 
 justify-content: center !important;
 align-items: center !important;
-        padding: 20px 100px 0px 0px !important;
+        /* padding: 20px 100px 0px 0px !important; */
 }
 .twoColumWithImageAndText-image-area{
     display: flex !important;
     justify-content: flex-end;
 }
 .twoColumWithImageAndText-image{
-         width: 100%;
 }
 /* twoColumWithImageAndText ended */
 
@@ -339,8 +340,15 @@ padding-top: 20px;
 .padding-top-large{
 padding-top: 140px;
 }
+.CustomerStats{
+padding-right: 160px;
+}
 .padding-medium-large{
 padding-top: 100px;
+/* padding-left: 100px;
+padding-right: 100px; */
+padding-bottom: 100px;
+
 }
 .customerStisfaction-text-area h1{
     color: #242F51 ;
@@ -437,7 +445,8 @@ padding-top: 100px;
 /* Download seaction started */
  
 .google-image{
-height: 75px;
+height: 62px;
+padding-top: 11px;
 }
 .apple-image{
     height: 62px;
@@ -479,9 +488,18 @@ color: white;
 text-decoration: none;
 }
  
- 
-.footer-lower-logo img{
-        width: 60px;
+ @media (min-width: 320px) {
+  .footer-lower-logo img{
+        width: 40px;
+}
+  
+}
+ @media (min-width: 768px) {
+
+.footer-lower-logo{
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
 }
 .footer-small-text{
 font-size: 10px;
@@ -844,7 +862,7 @@ padding: 25px;
 
 /* twoColumWithImageAndText started ened */
 .twoColumWithImageAndText-text-area{
-    padding: 24px;
+    padding: 40px;
 }
 .twoColumWithImageAndText-image-area{ 
     padding: 20px !important;

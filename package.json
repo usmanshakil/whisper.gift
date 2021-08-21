@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -43,15 +44,14 @@
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.0.1",
     "swiper": "^6.5.2",
-    "tailwindcss": "^2.1.2",
     "twin.macro": "^2.4.2",
     "use-in-view": "^1.0.15",
     "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "set PORT=8000 && react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "set PORT=8000 && craco start",
+     "build": "craco build",
+     "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -68,5 +68,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
   }
 }

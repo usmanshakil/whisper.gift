@@ -5,6 +5,7 @@ import * as Icon from 'react-feather';
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
+    <>
     <div className="py-4  d-flex justify-content-center align-items-center flex-column footer-container mt-auto">
       <div className="footer-logo">
         <Link to="/"> <img className="footer-social-link" src={Logo} alt="social1" /></Link>
@@ -15,22 +16,23 @@ const Footer = () => {
       </div>
       <div className=" d-flex justify-content-center align-items-center flex-wrap footer-links">
         <Link className="footer-link" to="/"> Return Policy   </Link>
-        <Link className="footer-link" to="/"> Shipping     </Link>
-        <Link className="footer-link" to="/">   Warranty   </Link>
-        <Link className="footer-link" to="/">   Privacy Policy   </Link>
+        <Link className="footer-link ml-5" to="/"> Shipping     </Link>
+        <Link className="footer-link ml-5" to="/">   Warranty   </Link>
+        <Link className="footer-link ml-5" to="/">   Privacy Policy   </Link>
 
       </div>
-      <div className="  d-flex justify-content-center align-items-center  footer-social-links">
-        <Link to="/">  <Icon.Twitter color="white" className="footer-call  pr-2" />     </Link>
-        <Link to="/">  <Icon.Instagram color="white" className="footer-call  pr-2" />     </Link>
-        <Link to="/">  <Icon.Facebook color="white" className="footer-call  pr-2" />     </Link>
+      <div className="  d-flex justify-content-center align-items-center  footer-social-links pt-4">
+        <Link to="/">  <Icon.Twitter color="white" className="footer-call mr-4" />     </Link>
+        <Link to="/">  <Icon.Instagram color="white" className="footer-call mr-4" />     </Link>
+        <Link to="/">  <Icon.Facebook color="white" className="footer-call  " />     </Link>
 
       </div>
-      <div className="footer-lower-logo d-flex justify-content-center align-items-center">
+      <div className="footer-lower-logo d-flex  align-items-center ">
         <Link to="/"><img src={Logo2} alt="social1" /></Link>
         <span className="footer-small-text ml-2">Term and Policy +1-345-234-2342</span>
       </div>
     </div>
+    </>
   );
 };
 export default Footer;
