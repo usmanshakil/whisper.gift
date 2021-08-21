@@ -11,8 +11,8 @@ import IllustrationPNG from "../../../assets/imgs/App Icon/PNG/modal/gift.jpg";
 const Mymodal = (props) => {
     const { state, changeModalStatus } = useContext(Context);
     const [steps, setSteps] = useState(1)
-
-    const handleStep1 = () => {
+    const [phoneNumber, setPhoneNumber] = useState("")
+    const handleStep1 = (e) => {
         setSteps(2)
     }
     const handleStep2 = () => {
@@ -61,9 +61,9 @@ const Mymodal = (props) => {
     }
     const Step1 = () => {
         return (
-            <Form onSubmit={handleStep1}>
+            <Form onSubmit={(event) => handleStep1(event)}>
 
-                <Form.Group className="mb-2" >
+                <Form.Group className="mb-2" onChange={(event) => setPhoneNumber(event.target.value)} >
                     <Form.Label>Phone Number  </Form.Label>
                     <Form.Control type="text" placeholder="Enter Phone Number" />
 

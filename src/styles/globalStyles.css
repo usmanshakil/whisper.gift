@@ -115,10 +115,10 @@ color: #242F51 !important;
 
 /* hero started  */
 .hero-container{
- /* background-color: #FFECBD; */
-    background-image: url("../assets/imgs/App Icon/PNG/hero/Group.png"); 
+ background-color: #FFECBD;
+    /* background-image: url("../assets/imgs/App Icon/PNG/hero/Group.png");  */
        
-    padding-bottom: 240px;
+    /* padding-bottom: 240px;/ */
     background-size: cover;
     background-position: bottom;
     position: relative;

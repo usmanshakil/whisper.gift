@@ -14,7 +14,7 @@ export default function Hero() {
                         <h1>Make your move gift you anyone.</h1>
                         <span>     Don't know the shipping address, no problem. We track down
                         shipping information and send the gift for you. You stay
-                    anonymous (or not). </span>
+                         anonymous (or not). </span>
                         <div className="d-flex justify-content-start w-100 mt-4">
                             <button onClick={() => { history.push('/how-it-work') }} className="hero-btn" >Learn more</button>
                         </div>
@@ -23,12 +23,11 @@ export default function Hero() {
                     <Col className={"  hero-image-area  p-0"} lg={6} md={12} sm={12}>
                         <img className="hero-image" alt="hero" src={Gift} />
                     </Col>
-                    {/* <div className={"hero-footer-image-area"}  >
-                        <img className="hero-footer-image-area" alt="hero" src={IllustrationPNG} />
-                    </div> */}
                 </Row>
             </Container>
-
+            <div className={"hero-footer-image-area"}  >
+                <img className="hero-footer-image-area" alt="hero" src={IllustrationPNG} />
+            </div>
         </div>
     )
 }
