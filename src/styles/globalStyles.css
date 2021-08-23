@@ -421,7 +421,7 @@ padding-bottom: 100px;
     width: 100px;
 }
 .bring-text{
-    padding-right: 180px;
+    padding-right: 198px;
 }
 .mobile-text{        
     padding-right: 150px;
@@ -1069,6 +1069,12 @@ padding: 25px;
          padding-right: unset  !important;
          margin-right: unset  !important;
 }
+.download-app{
+    padding: 5px;
+}
+.Download-text{
+
+}
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) { 
 
@@ -1100,6 +1106,83 @@ padding: 25px;
 .download-app{
     padding: 10px;
 }
+.faq-main-heading span{
+    padding-left: 30px;
+    font-size: 14px;
+ }
+ .faq-main-heading h1{
+    font-size: 25px;
+}
+.faq-sub-heading span{
+    font-size: 14px;
+ }
+.Download-text{
+    font-size: 25px;
+}
+.download-span{
+    font-size: 15px;
+}
+.padding-medium-large {
+    padding-top: 25px; 
+    padding-bottom: 0px;
+}
+.hpOrEw {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.twoColumWithImageAndText-text-area span {
+    color: #616368;
+    font-size: 14px;
+}
+.twoColumWithImageAndText-text-area h1 {
+    color: #242F51;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hero-text-area h1 {
+    color: #242F51;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.hero-text-area span {
+    color: #616368;
+    font-size: 15px;
+}
+ .bring-text {
+    padding-right: 0px;
+}
+.mobile-text {
+    padding-right: 0px;
+}
+.customerStisfaction-text-area span {
+    color: #616368;
+    font-size: 14px;
+}
+.customerStisfaction-text-area span .mobile-text{
+    padding-right:0px;
+}
+.meet-customer h1{
+    font-size: 30px;
+
+}
+.meet-customer{
+    width: 100%;
+}
+.twoColumWithImageAndText-card span {
+    font-size: 14px;
+}
+.twoColumWithImageAndText-main-heading{
+        font-size: 30px;
+
+}
+.navbar-collapse{
+    z-index: 1;
+}
+
 }
 @media only screen and (min-width: 319px) and (max-width: 374px) { 
   .cross-img{
@@ -1115,17 +1198,111 @@ padding: 25px;
     width: 35px;
     top: -15px;
 }
-.rise-text{
-    padding:0px;
+.faq-main-heading span{
+    padding-left: 30px;
+    font-size: 13px;
+ }
+ .faq-main-heading h1{
+    font-size: 25px;
+}
+.faq-sub-heading span{
+    font-size: 13px;
+ }
+.Download-text{
+    font-size: 25px;
+}
+.download-span{
+    font-size: 14px;
+}
+.padding-medium-large {
+    padding-top: 25px; 
+    padding-bottom: 0px;
+}
+.hpOrEw {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.twoColumWithImageAndText-text-area span {
+    color: #616368;
+    font-size: 13px;
+}
+.twoColumWithImageAndText-text-area h1 {
+    color: #242F51;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hero-text-area h1 {
+    color: #242F51;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+element.style {
+}
+.hero-text-area span {
+    color: #616368;
+    font-size: 15px;
+}
+ .bring-text {
+    padding-right: 0px;
+}
+.mobile-text {
+    padding-right: 0px;
+}
+.customerStisfaction-text-area span {
+    color: #616368;
+    font-size: 13px;
+}
+.customerStisfaction-text-area span .mobile-text{
+    padding-right:0px;
+}
+.meet-customer h1{
+    font-size: 30px;
+
+}
+.meet-customer{
+    width: 100%;
+}
+.twoColumWithImageAndText-card span {
+    font-size: 13px;
+}
+.twoColumWithImageAndText-main-heading{
+        font-size: 30px;
+
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
 
+.navbar-collapse {
+    z-index: 1;
+}
+.twoColumWithImageAndText-text-area h1 {
+    color: #242F51;
+    font-size: 35px;
+    font-weight: bold;
+}
+.customerStisfaction-text-area h1 {
+    color: #242F51;
+    font-size: 35px;
+    font-weight: bold;
+}
+.faq-main-heading span {
+    color: #616368;
+    font-size: 16px;
+    width: 90%;
+    padding-left: 60px;
+}
+.Download-text{
+   font-size: 27px;
+}
 .download-app{
-    padding: 10px;
+    /* padding: 10px; */
 }
 .icons{
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 .footer-lower-logo{
     padding-right: 400px;
@@ -1140,9 +1317,9 @@ padding: 25px;
 width: 0px;
 }
 .circle-img2{
-    top: -52px;
+        top: -40px;
     width: 50px;
-    left: 0px;
+    left: 135px;
 }
 .cross-img{
     width: 45px;
@@ -1153,12 +1330,31 @@ width: 0px;
     top: -45px;
     right: 270px;
 }
+.mobile-text{
+    padding-right: 80px;
+}
+.bring-text{
+    padding-right: 80px;
+}
+.meet-customer{
+    width: 100%;
+}
+.download-app{
+    padding-left: 100px;
+}
+.download-appimg{
+
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1440px)  {
     .cross-img2{
     width: 50px;
     top: 20px;
     right: 50px;
+}
+.icons{
+    /* padding-bottom: 5px; */
+}
 }
 @media only screen and (min-width: 1440px) and (max-width: 2560px)  {
     .cross-img2{
@@ -1167,6 +1363,4 @@ width: 0px;
     right: 317px;
     
 }
-}
-
 }

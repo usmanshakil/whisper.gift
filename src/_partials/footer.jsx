@@ -27,7 +27,7 @@ const Footer = () => {
         <Link to="/">  <Icon.Facebook color="white" className="footer-call  " />     </Link>
 
       </div>
-      <div className="footer-lower-logo d-flex  align-items-center ">
+      <div className="footer-lower-logo d-flex  align-items-center mt-4">
         <Link to="/"><img src={Logo2} alt="social1" /></Link>
         <span className="footer-small-text ml-2">Term and Policy +1-345-234-2342</span>
       </div>

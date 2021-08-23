@@ -11,14 +11,88 @@ import IllustrationPNG from "../../../assets/imgs/App Icon/PNG/modal/gift.jpg";
 const Mymodal = (props) => {
     const { state, changeModalStatus } = useContext(Context);
     const [steps, setSteps] = useState(1)
-    const [phoneNumber, setPhoneNumber] = useState("")
+
+    const [phoneNumber, setPhoneNumber] = useState("");
+    const [Code, setCode] = useState("");
+    const [fullName, setfullName] = useState("");
+    const [instagramName, setinstagramName] = useState("");
+    const [phoneNum, setphoneNum] = useState("");
+    const [email, setEmail] = useState("");
+
+    const [url, setUrl] = useState("");
+    const [confirmCode, setconfirmCode] = useState("");
+    const [message, setMessage] = useState("");
+
+    const [giftFullName, setgiftFullName] = useState("");
+    const [giftPhoneNum, setgiftPhoneNum] = useState("");
+    const [giftAddress, setgiftAddress] = useState("");
+    const [giftaptSuit, setgiftAptsuit] = useState("");
+    const [giftCity, setgiftCity] = useState("");
+    const [giftState, setgiftState] = useState("");
+    const [giftZip, setgiftZip] = useState("");
+    const [giftCountry, setgiftCountry] = useState("");
+    const [formOne, setformOne] = useState({});   
+    const [formtwo, setformTwo] = useState({});   
+    const [formThree, setformThree] = useState({});   
+   
+    // const [phoneNumber, setPhoneNumber] = useState("")
+    // const [Code, setCode] = useState('');
+    const formData = {
+      phoneNumber,
+      Code,
+      fullName,
+      instagramName,
+      phoneNum,
+      email,
+      url,
+      confirmCode,
+      fullName,
+      message,
+      giftFullName,
+      giftPhoneNum,
+      giftAddress,
+      giftaptSuit,
+      giftCity,
+      giftState,
+      giftZip,
+      giftCountry,
+    };
+
+
     const handleStep1 = (e) => {
+        const formDatastep1 = {
+          phoneNumber,
+          Code,
+          fullName,
+          instagramName,
+          phoneNum,
+          email,
+        };
+        alert(JSON.stringify(formDatastep1));
         setSteps(2)
     }
     const handleStep2 = () => {
+        const formDatastep2 = {
+          url,
+          confirmCode,
+          fullName,
+          message,
+        };
+        alert(JSON.stringify(formDatastep2));
         setSteps(3)
     }
     const handleStep3 = () => {
+        const formDatastep3 = {
+          giftFullName,
+          giftPhoneNum,
+          giftAddress,
+          giftaptSuit,
+          giftCity,
+          giftState,
+          giftZip,
+          giftCountry
+        };
+        alert(JSON.stringify(formDatastep3));
         props.setOpenModal(false)
     }
     const OrderSummaryMobile = () => {
@@ -54,77 +128,123 @@ const Mymodal = (props) => {
                     <Col className={" default-margin d-flex flex-column justify-content-flex-start      "} lg={12} md={12} sm={12}>
                         <p>     This flat rate fee allows us to operate the Whisper. Gift service.</p>
                     </Col>
-
                 </Row>
             </Collapsible>
         )
     }
     const Step1 = () => {
         return (
-            <Form onSubmit={(event) => handleStep1(event)}>
+          <Form onSubmit={(event) => handleStep1(event)}>
+            <Form.Group
+              className="mb-2"
+              onChange={(e) => setPhoneNumber(e.target.value)}
+            >
+              <Form.Label>Phone Number </Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter Phone Number"
+                value={phoneNumber}
+              />
+            </Form.Group>
 
-                <Form.Group className="mb-2" onChange={(event) => setPhoneNumber(event.target.value)} >
-                    <Form.Label>Phone Number  </Form.Label>
-                    <Form.Control type="text" placeholder="Enter Phone Number" />
+            <Form.Group
+              className="mb-2"
+              onChange={(e) => setCode(e.target.value)}
+            >
+              <Form.Label> Confirmation code </Form.Label>
+              <Form.Control
+                type="text"
+                placeholder=" Enter  Confirmation code"
+                value={Code}
+              />
+            </Form.Group>
 
-                </Form.Group>
-                <Form.Group className="mb-2"  >
-                    <Form.Label> Confirmation code   </Form.Label>
-                    <Form.Control type="email" placeholder=" Enter  Confirmation code " />
+            <div className="modal-subheading">
+              <span>Help us find the person you want to gift</span>
+            </div>
+            <Form.Group
+              className="mb-2"
+              onChange={(e) => setfullName(e.target.value)}
+            >
+              <Form.Label>Full Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter  Full Name"
+                value={fullName}
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-2"
+              onChange={(e) => setinstagramName(e.target.value)}
+            >
+              <Form.Label> Instagram Username </Form.Label>
+              <Form.Control
+                type="text"
+                placeholder=" Enter Instagram Username"
+                value={instagramName}
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-2"
+              onChange={(e) => setphoneNum(e.target.value)}
+            >
+              <Form.Label> Phone </Form.Label>
+              <Form.Control
+                type="number"
+                placeholder="Enter Phone"
+                value={phoneNum}
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-2"
+              onChange={(e) => setEmail(e.target.value)}
+            >
+              <Form.Label> Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Enter Email"
+                value={email}
+              />
+            </Form.Group>
 
-                </Form.Group>
-
-                <div className="modal-subheading">
-                    <span>Help us find the person you want to gift</span>
-                </div>
-                <Form.Group className="mb-2"  >
-                    <Form.Label>Full Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter  Full Name" />
-                </Form.Group>
-                <Form.Group className="mb-2"  >
-                    <Form.Label> Instagram Username </Form.Label>
-                    <Form.Control type="text" placeholder=" Enter Instagram Username" />
-                </Form.Group>
-                <Form.Group className="mb-2"  >
-                    <Form.Label> Phone </Form.Label>
-                    <Form.Control type="number" placeholder="Enter Phone" />
-                </Form.Group>
-                <Form.Group className="mb-2"  >
-                    <Form.Label>   Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter Email" />
-                </Form.Group>
-
-                <div className="d-flex justify-content-center flex-wrap mt-2">
-                    <Button variant="primary" type="submit" className="btn-modal">
-                        Next
-                                 </Button>
-                    <Button variant="primary" onClick={() => props.setOpenModal(false)} className="btn-modal">
-                        Close
-                                 </Button>
-                </div>
-
-            </Form>
-        )
+            <div className="d-flex justify-content-center flex-wrap mt-2">
+              <Button variant="primary" type="submit" className="btn-modal">
+                Next
+              </Button>
+              <Button
+                variant="primary"
+                onClick={() => props.setOpenModal(false)}
+                className="btn-modal"
+              >
+                Close
+              </Button>
+            </div>
+          </Form>
+        );
     }
 
     const Step2 = () => {
         return (
             <Form className="d-flex flex-column  justify-content-between" onSubmit={handleStep2}>
                 <div className="">
-                    <Form.Group className="mb-2 mt-3" >
-                        <Form.Label>Url of the gift    </Form.Label>
-                        <Form.Control type="text" placeholder="https://www.instagram.com/notdummy/?hl=en" />
+                    <Form.Group className="mb-2 mt-3" onChange={(e)=>{setUrl(e.target.value)}}>
+                        <Form.Label>Url of the gift    
+                        </Form.Label>
+                        <Form.Control type="text" placeholder="https://www.instagram.com/notdummy/?hl=en" 
+                        value={url}/>
 
                     </Form.Group>
-                    <Form.Group className="mb-2 mt-3"  >
+                    <Form.Group className="mb-2 mt-3"  onChange={(e)=>setconfirmCode(e.target.value)}>
                         <Form.Label>Price     </Form.Label>
-                        <Form.Control type="number" placeholder=" Enter  Confirmation code " />
+                        <Form.Control type="number" placeholder=" Enter  Confirmation code " 
+                        value={confirmCode}/>
 
                     </Form.Group>
 
-                    <Form.Group className="mb-2 mt-3  "  >
+                    <Form.Group className="mb-2 mt-3"  onChange={(e)=>setMessage(e.target.value)}>
                         <Form.Label>Get Message (Optional)  </Form.Label>
-                        <Form.Control type="textarea" placeholder="Enter you message" />
+                        <Form.Control type="textarea" placeholder="Enter you message" 
+                        value={message}/>
                     </Form.Group>
 
                 </div>
@@ -136,69 +256,119 @@ const Mymodal = (props) => {
                 <div className="d-flex justify-content-center flex-wrap padding-top-large1 ">
                     <Button variant="primary" type="submit" className="btn-modal">
                         Next
-                                 </Button>
+                    </Button>
                     <Button variant="primary" onClick={() => props.setOpenModal(false)} className="btn-modal">
                         Close
-                                 </Button>
+                  </Button>
                 </div>
-
             </Form>
         )
     }
-    const Step3 = () => {
+    const Step3 = () => {  
         return (
-            <Form onSubmit={handleStep3}>
+          <Form onSubmit={handleStep3}>
+            <Form.Group
+              className="mb-3"
+              onChange={(e) => setgiftFullName(e.target.value)}
+            >
+              <Form.Label>Full Name </Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter Full Name "
+                value={giftFullName}
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              onChange={(e) => setgiftPhoneNum(e.target.value)}
+            >
+              <Form.Label> Phone Number </Form.Label>
+              <Form.Control
+                type="text"
+                placeholder=" Enter Phone Number "
+                value={giftPhoneNum}
+              />
+            </Form.Group>
 
-                <Form.Group className="mb-3" >
-                    <Form.Label>Full Name  </Form.Label>
-                    <Form.Control type="text" placeholder="Enter   Full Name " />
+            <Form.Group
+              className="mb-4"
+              onChange={(e) => setgiftAddress(e.target.value)}
+            >
+              <Form.Label>Address </Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter Address"
+                value={giftAddress}
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-4"
+              onChange={(e) => setgiftAptsuit(e.target.value)}
+            >
+              <Form.Label> Apt,Suit </Form.Label>
+              <Form.Control type="text" placeholder=" Enter    Apt,Suit" 
+              value={giftaptSuit}/>
+            </Form.Group>
 
-                </Form.Group>
-                <Form.Group className="mb-3"  >
-                    <Form.Label>   Phone Number   </Form.Label>
-                    <Form.Control type="email" placeholder=" Enter    Phone Number " />
+            <div className="d-flex setp3-city-zip">
+              <Form.Group
+                className="mb-4"
+                onChange={(e) => setgiftCity(e.target.value)}
+              >
+                <Form.Label> City </Form.Label>
+                <Form.Control type="text" placeholder="Enter City" 
+                value={giftCity}/>
+              </Form.Group>
 
-                </Form.Group>
+              <Form.Group
+                className="mb-4"
+                onChange={(e) => setgiftState(e.target.value)}
+              >
+                <Form.Label className=" "> State </Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="Enter State"
+                  value={giftState}
+                />
+              </Form.Group>
+              <Form.Group
+                className="mb-4"
+                onChange={(e) => setgiftZip(e.target.value)}
+              >
+                <Form.Label className=" "> Zip </Form.Label>
+                <Form.Control
+                  type="number"
+                  placeholder="Enter Zip"
+                  value={giftZip}
+                />
+              </Form.Group>
+            </div>
+            <Form.Group
+              className="mb-4"
+              onChange={(e) => setgiftCountry(e.target.value)}
+            >
+              <Form.Label> Country</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter Country"
+                value={giftCountry}
+              />
+            </Form.Group>
 
-
-                <Form.Group className="mb-4"  >
-                    <Form.Label>Address  </Form.Label>
-                    <Form.Control type="text" placeholder="Enter    Address" />
-                </Form.Group>
-                <Form.Group className="mb-4"  >
-                    <Form.Label>    Apt,Suit </Form.Label>
-                    <Form.Control type="text" placeholder=" Enter    Apt,Suit" />
-                </Form.Group>
-                <div className="d-flex setp3-city-zip">
-                    <Form.Group className="mb-4"  >
-                        <Form.Label> City </Form.Label>
-                        <Form.Control type="text" placeholder="Enter City" />
-                    </Form.Group>
-                    <Form.Group className="mb-4 "  >
-                        <Form.Label className=" "> State </Form.Label>
-                        <Form.Control type="text" placeholder="Enter State" />
-                    </Form.Group>
-                    <Form.Group className="mb-4"  >
-                        <Form.Label className=" "> Zip </Form.Label>
-                        <Form.Control type="number" placeholder="Enter Zip" />
-                    </Form.Group>
-                </div>
-                <Form.Group className="mb-4"  >
-                    <Form.Label>    Country</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Country" />
-                </Form.Group>
-
-                <div className="d-flex justify-content-center flex-wrap">
-                    <Button variant="primary" type="submit" className="btn-modal">
-                        Place   Order
-                                 </Button>
-                    <Button variant="primary" onClick={() => props.setOpenModal(false)} className="btn-modal">
-                        Close
-                                 </Button>
-                </div>
-
-            </Form>
-        )
+            <div className="d-flex justify-content-center flex-wrap">
+              <Button variant="primary" type="submit" className="btn-modal">
+                Place Order
+              </Button>
+              <Button
+                variant="primary"
+                onClick={() => props.setOpenModal(false)}
+                className="btn-modal"
+              >
+                Close
+              </Button>
+            </div>
+          </Form>
+        );
     }
     return (
         <Modal toggle={() => props.setOpenModal(false)} size="xl" isOpen={props.openModal}  >

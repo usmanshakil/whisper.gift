@@ -32,11 +32,11 @@ export default function CustomerStisfaction() {
 
             // style="padding-right: 160px"
           >
-            <div className="d-flex justify-content-start tracking-wider w-9/12 font-bold">
+            <div className="d-flex justify-content-start tracking-wider w-9/12 xl:w-10/12 2xl:w-10/12 font-bold meet-customer">
               <h1>Meet Customer Satisfaction by using WHISPER.GIFT</h1>
             </div>
-            <span className="pt-3 pb-3 mobile-text">
-              The rise of mobile devices transforms the way we consume. elevant
+            <span className="pt-3 pb-3 mobile-text tracking-wider 2xl:w-10/12">
+              The rise of mobile devices transforms the way we consume elevant
               channels such as Facebook.
             </span>
             <div className="d-flex justify-content-start  w-100  mt-4">
@@ -50,7 +50,7 @@ export default function CustomerStisfaction() {
               <h4>User friendly & Customizable</h4>
             </div>
 
-            <span className="pt-3 pb-3 tracking-wider bring-text">
+            <span className="pt-3 pb-3 tracking-wide bring-text">
               Bring to the table win-win survival strategies to ensure proactive
               domination. At the end of the day, going forward, a new normal
               that has evolved from generation X is on the runway heading
