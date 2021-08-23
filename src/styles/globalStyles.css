@@ -7,7 +7,12 @@ body{
     color: black;
       padding-left: 0px !important;
     padding-right: 0px !important;
-} 
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1215px !important;
+}
+}
 p , a , h1, h2 ,h3,h4,h5 h6{
     font-family: 'Lato', sans-serif !important;
 }
@@ -124,6 +129,48 @@ color: #242F51 !important;
     position: relative;
 
 } 
+.circle-img{
+    position:absolute;
+    right : 220px;
+    top: 100px;
+    width: 50px;
+}
+.circle-img2{
+    position:absolute;
+    right : 320px;
+    top: -40px;
+    width: 50px;
+}
+/* .cross-img{
+    position:absolute;
+    left: 745px;
+    bottom: 230px;
+    width: 45px;
+
+} */
+.cross-img1{
+    position:absolute;
+    left: 0px;
+    width: 45px;
+}
+.cross-img2{
+    /* position:absolute; */
+    right: 90px;
+    top: 80px;
+    width: 60px;
+}
+.square-img{
+    position:absolute;
+    bottom: 300px;
+    left: 210px;
+    width: 60px;
+}
+.cross-img{
+    position:absolute;
+    bottom: 0px;
+    left: 585px;
+    width: 45px;
+}
 .hero-container-2{
  background-color: #FFECBD;
     /* background-image: url("../assets/imgs/App Icon/PNG/hero/Group.png");  */
@@ -166,7 +213,7 @@ background-color: #FD6534;
 .hero-image{
                 
 /* position:absolute; */
-     width: 550px; 
+     max-width: 500px; 
 
 
 }
@@ -174,6 +221,8 @@ background-color: #FD6534;
     display: flex;
     justify-content: flex-end; 
     width: 100%;
+    position: relative;
+    bottom: -1px;
 }
 .extra-padding{
     
@@ -244,6 +293,7 @@ background-color: #FD6534;
 display: flex !important; 
 justify-content: center !important;
 align-items: center !important;
+padding-right: 30px;
         /* padding: 20px 100px 0px 0px !important; */
 }
 .twoColumWithImageAndText-image-area{
@@ -340,9 +390,9 @@ padding-top: 20px;
 .padding-top-large{
 padding-top: 140px;
 }
-.CustomerStats{
+/* .CustomerStats{
 padding-right: 160px;
-}
+} */
 .padding-medium-large{
 padding-top: 100px;
 /* padding-left: 100px;
@@ -369,6 +419,12 @@ padding-bottom: 100px;
 }
 .customer-img{
     width: 100px;
+}
+.bring-text{
+    padding-right: 180px;
+}
+.mobile-text{        
+    padding-right: 150px;
 }
 /* CustomerStisfaction ended */
 
@@ -401,19 +457,27 @@ padding-bottom: 100px;
     font-weight: bolder;  
  }
  .faq-main-heading span{
-          color:  #616368 ;
+        color:  #616368 ;
        font-size: 16px;
-         width: auto; 
+         width: 90%; 
+         padding-left: 110px;
  }
 .faq-sub-heading{
     background-color: #F5F7FA;
-    padding: 23px 27px;
+    /* padding: 23px 27px; */
 
 }
  .faq-sub-heading h1{
-         color: #242F51 ;
+    color: #242F51 ;
     font-size: 16px;
     font-weight: bolder;
+    padding-top: 25px;
+         padding-left: 5px;
+
+ }
+ .faq-sub-heading span{
+     padding-bottom: 20px;
+     padding-left: 5px;
  }
  .faq-box{
      padding: 50px 130px !important;
@@ -494,13 +558,7 @@ text-decoration: none;
 }
   
 }
- @media (min-width: 768px) {
 
-.footer-lower-logo{
-    padding-right: 400px;
-    padding-bottom: 50px;
-}
-}
 .footer-small-text{
 font-size: 10px;
 }
@@ -866,6 +924,7 @@ padding: 25px;
 }
 .twoColumWithImageAndText-image-area{ 
     padding: 20px !important;
+    padding-right: 40px;
 }
 /* twoColumWithImageAndText started ened */
 
@@ -939,7 +998,7 @@ padding: 25px;
     padding: 5px;
 }
 .hero-image{
-    width: 300px;
+    max-width: 300px;
 } 
 .hero-image-area{
     position: unset  !important;
@@ -1012,9 +1071,102 @@ padding: 25px;
 }
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) { 
+
+.cross-img2{
+    position: absolute;
+    right: 6px;
+    top: -4px;
+    width: 40px;
+}
+.square-img{
+    position: absolute;
+    width: 40px;
+    top: 60px;
+}
+.circle-img{
+    position: absolute;
+    width: 40px;
+}
+.cross-img{
+    position:absolute;
+    width: 50px;
+    left: 180px;
+}
+/* .cross-img2{
+    position:absolute;
+    width: 40px;
+    left: 200px;
+} */
+.download-app{
+    padding: 10px;
+}
 }
 @media only screen and (min-width: 319px) and (max-width: 374px) { 
-  
+  .cross-img{
+    width: 30px;
+    left: 114px;
+    bottom: -23px;
 }
- 
+.cross-img2{
+    width: 35px;
+    top: -10px;
+}
+.cross-img1{
+    width: 35px;
+    top: -15px;
+}
+.rise-text{
+    padding:0px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
 
+.download-app{
+    padding: 10px;
+}
+.icons{
+    padding-bottom: 5px;
+}
+.footer-lower-logo{
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
+.square-img{
+    width: 65px;
+    top: 50px;
+    left: 215px;
+}
+.circle-img{
+width: 0px;
+}
+.circle-img2{
+    top: -52px;
+    width: 50px;
+    left: 0px;
+}
+.cross-img{
+    width: 45px;
+    left: 452px;
+}
+.cross-img2{
+    width: 50px;
+    top: -45px;
+    right: 270px;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px)  {
+    .cross-img2{
+    width: 50px;
+    top: 20px;
+    right: 50px;
+}
+@media only screen and (min-width: 1440px) and (max-width: 2560px)  {
+    .cross-img2{
+    width: 50px;
+    top: 20px;
+    right: 317px;
+    
+}
+}
+
+}

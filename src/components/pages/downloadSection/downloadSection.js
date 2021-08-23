@@ -8,7 +8,7 @@ export default function DownloadSection() {
       <>
         <div class=" pt-6 mx-auto">
           <div class="flex flex-wrap">
-            <div class="md:w-3/5 w-full pb-6 md:pb-0 md:pr-6 lg:pl-64 lg:pt-12">
+            <div class="md:w-3/5 w-full pb-6 md:pb-0 md:pr-6 lg:pl-64 lg:pt-12 download-app">
               <div class="">
                 <h1 className="tracking-normal font-bold ">
                   Download our App now !
@@ -18,7 +18,7 @@ export default function DownloadSection() {
                   information entirely and the world's most elevant channels
                   such as Facebook.
                 </span>
-                <div className="md:flex mt-4">
+                <div className="md:flex mt-4 icons">
                   <img className="google-image pr-2 " alt="google" src={PlayStore} />
                   <img className="apple-image " alt="apple" src={Apple} />
                 </div>

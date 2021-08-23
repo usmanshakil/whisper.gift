@@ -12,6 +12,7 @@ export default function CustomerStisfaction() {
             lg={6}
             md={6}
             sm={12}
+            md={12}
           >
             <img
               className="twoColumWithImageAndText-image"
@@ -27,12 +28,14 @@ export default function CustomerStisfaction() {
             lg={6}
             md={6}
             sm={12}
+            md={12}
+
             // style="padding-right: 160px"
           >
             <div className="d-flex justify-content-start tracking-wider w-9/12 font-bold">
               <h1>Meet Customer Satisfaction by using WHISPER.GIFT</h1>
             </div>
-            <span className="pt-3 pb-3 pr-3 w-8/12">
+            <span className="pt-3 pb-3 mobile-text">
               The rise of mobile devices transforms the way we consume. elevant
               channels such as Facebook.
             </span>
@@ -47,9 +50,7 @@ export default function CustomerStisfaction() {
               <h4>User friendly & Customizable</h4>
             </div>
 
-            <span
-              className="pt-3 pb-3 w-8/12 tracking-wider"
-            >
+            <span className="pt-3 pb-3 tracking-wider bring-text">
               Bring to the table win-win survival strategies to ensure proactive
               domination. At the end of the day, going forward, a new normal
               that has evolved from generation X is on the runway heading

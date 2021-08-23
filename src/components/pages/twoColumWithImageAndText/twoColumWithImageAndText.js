@@ -7,23 +7,23 @@ export default function TwoColumWithImageAndText(props) {
     const { state, changeModalStatus } = useContext(Context);
 
     return (
-      <div className="padding-medium-large">
+      <div className="container padding-medium-large">
         <Row className="default-margin">
           <Col
-            className={"twoColumWithImageAndText-image-area    w-100"}
+            className={"twoColumWithImageAndText-image-area pr-5   w-100"}
             lg={6}
             md={6}
             sm={12}
           >
             <img
-              className="twoColumWithImageAndText-image pl-44 "
+              className="twoColumWithImageAndText-image"
               alt="hero"
               src={IllustrationPNG}
             />
           </Col>
           <Col
             className={
-              "d-flex flex-column justify-content-center twoColumWithImageAndText-text-area "
+              "d-flex flex-column justify-content-center twoColumWithImageAndText-text-area pb-5"
             }
             lg={6}
             md={6}
@@ -32,7 +32,7 @@ export default function TwoColumWithImageAndText(props) {
             <div className="d-flex justify-content-start w-100 pb-3">
               <h1>Send your gift now</h1>
             </div>
-            <div class="w-8/12 text-left tracking-widest leading-relaxed">
+            <div class="text-left tracking-widest leading-relaxed">
               <span>
                 {" "}
                 What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
